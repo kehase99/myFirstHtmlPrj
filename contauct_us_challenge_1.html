@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <section>
+        <form action="./contauct_us_action_challenge_1.html" method="POST">
+            <label for="first-name">First Name:</label> <br />
+            <input type="text" id="first-name" name="first-name" />
+            <br />
+            <br />
+            <label for="last_name">Last Name:</label>
+            <br />
+            <input type="text" id="last_name" name="last_name">
+            <br />
+            <br />
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" id="email" name="email" />
+            <br />
+            <br />
+            <label for="user_pasword">Password:</label>
+            <br />
+            <input type="password" id="user_pasword" name="user_pasword" />
+            <br />
+            <br />
+            <label for="phone_number">Phone Number:</label>
+            <br />
+            <input type="number" id="phone_number" name="phone_number" />
+            <br />
+            <br />
+            <label for="birth">Date of Birth:</label>
+            <br />
+            <input type="date" id="birth" name="birth" />
+            <br />
+            <br />
+            <label for="gender">Gender:</label>
+            <br />
+            <input type="radio" id="gender" name="gender" value="male" />Male
+            <br />
+            <input type="radio" id="gender" name="gender" value="female" />Female
+            <br />
+            <input type="radio" id="gender" name="gender" value="other" />Other
+            <br />
+            <br />
+            <label for="country_choose">Country:</label>
+            <br />
+            <select name="country_choose" id="country_choose">
+                <option value="key">Kenya</option>
+                <option value="us">USA</option>
+                <option value="uk">England</option>
+                <option value="ger">Germany</option>
+            </select>
+            <br />
+            <br />
+            <label for="user_hobbies">Hobbies:</label>
+            <div id="user_hobbies">
+                <input type="checkbox" id="user_hobbies" name="user_hobbies" value="reading">Reading
+                <br>
+                <input type="checkbox" id="user_hobbies" name="user_hobbies" value="traveling">Traveling
+                <br>
+                <input type="checkbox" id="user_hobbies" name="user_hobbies" value="cooking">Cooking
+                <br>
+                <input type="checkbox" id="user_hobbies" name="user_hobbies" value="sports">Sports
+                <br>
+                <input type="checkbox" id="user_hobbies" name="user_hobbies" value="music">Music
+                <br>
+                <input type="checkbox" id="user_hobbies" name="user_hobbies" value="art">Art
+            </div>
+            <br />
+            <label for="bio">Short Bio:</label>
+            <br />
+            <textarea 
+                    name="bio" 
+                    id="bio"
+                    rows="4"
+                    cols="30"
+                    >
+                    Tell us about yourself...
+
+            </textarea>
+            <br />
+            <br />
+            <input type="submit" value="Register" />
+            <input type="reset" value="Reset" />
+        </form>
+    </section>
+</body>
+</html>

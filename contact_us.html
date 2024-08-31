@@ -40,10 +40,12 @@
             <label for="text">Short Bio:</label> <br>
             <textarea 
                 name="text" 
-                cols="30" 
+                cols="40" 
                 rows="10" 
                 placeholder="Tell us about yourself"
+                style="text-align: center;"
                     >
+                    Tell us about yourself
             </textarea>
             <br>
             <br>
@@ -76,10 +78,15 @@
             </div>
             <br>
             <br>
+            <label for="progress">Downloading Progress:</label>
+            <progress id="progress" value="60" max="100">Progress 30%</progress>
+            <br />
+            <br />
             <!--submit button-->
             <input type="submit" value="submit" />
             <!--reset button-->
             <input type="reset" value="reset" />
+
         </form>
     </section>
 </body>
